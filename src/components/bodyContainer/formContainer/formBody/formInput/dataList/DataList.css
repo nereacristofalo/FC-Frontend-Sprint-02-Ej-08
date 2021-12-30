@@ -1,0 +1,80 @@
+.data-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f9;
+  border-radius: 8px;
+  padding: 12px 15px;
+  width: 100%;
+  height: 40px;
+  margin-top: 12px;
+}
+
+.skills-select-input {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #a5a8b3;
+  letter-spacing: 0.005em;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.skills-select {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  right: 16px;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.skills-select-chevron {
+  position: static;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  margin-right: 5px;
+  width: 6px;
+  height: 6px;
+  transform: rotate(-45deg);
+  transition: all 0.25s ease;
+}
+
+.selected-skills-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.selected-skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 6px 5px 10px;
+  background: #e6e6ea;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #121625;
+  margin-right: 6px;
+  margin-bottom: 7px;
+  user-select: none;
+}
+
+.cross-icon {
+  margin-left: 9px;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}

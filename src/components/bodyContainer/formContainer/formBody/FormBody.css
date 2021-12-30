@@ -1,0 +1,14 @@
+#form {
+  width: 100%;
+  row-gap: 24px;
+  display: flex;
+  flex-flow: column;
+}
+
+.form-data {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 24px;
+}

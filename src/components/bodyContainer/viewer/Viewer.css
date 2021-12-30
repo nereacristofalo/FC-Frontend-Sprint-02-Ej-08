@@ -1,0 +1,7 @@
+.document-previewer {
+  display: flex;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 20px;
+  margin-bottom: 34px;
+}

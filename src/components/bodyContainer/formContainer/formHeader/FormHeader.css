@@ -1,0 +1,43 @@
+.form-header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 24px;
+  margin-bottom: 48px;
+}
+
+.img-profile {
+  width: 90px;
+  height: 90px;
+  border: 4px solid #e6e6ea;
+  border-radius: 20px;
+}
+
+.student-data {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 7px;
+}
+
+.student-name {
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #121625;
+}
+
+.location-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.location-label {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a5a8b3;
+}
